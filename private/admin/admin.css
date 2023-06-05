@@ -1,0 +1,116 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(78, 58, 35);
+    font-size: large;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    margin-bottom: 3vh;
+}
+
+#logo {
+    width: 500px;
+    height: 150px;
+}
+
+.contact {
+    font-size: medium;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+
+header section div:nth-child(1) {
+    margin-bottom: 0;
+    margin-top: 3vh;
+}
+
+header section div:nth-child(3) {
+    margin-bottom: 0;
+    margin-top: 6vh;
+    padding-left: 2vh;
+}
+
+header section div p {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+header section div:nth-child(1) p i {
+    font-size: x-large;
+    padding-right: 2vh;
+    margin-top: 1vh;
+    color: rgb(78, 58, 35);
+}
+
+header section div:nth-child(3) p i {
+    font-size: x-large;
+    padding-left: 2vh;
+    margin-top: 0;
+    color: rgb(78, 58, 35);
+}
+
+header section div p i:hover {
+    color: rgb(219, 128, 54);
+    transition-duration: 0.4s;
+}
+
+main {
+    margin-bottom: 10vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-left: 7vw;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-left: 7vw;
+    margin-bottom: 30px;
+    background-color: #705137;
+    color: white;
+    border-radius: 7px;
+    font-size: large;
+    padding: 9px;
+    border: 1px solid white;
+}
+
+button:hover {
+    background-color: #443529;
+    transition-duration: 0.3s;
+}
+
+tr:nth-child(even) {
+    background-color: #eee1d6;
+}
+
+th,
+td {
+    padding: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+main table tbody tr td i {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+}
+
+thead,
+tfoot {
+    font-weight: bolder;
+}

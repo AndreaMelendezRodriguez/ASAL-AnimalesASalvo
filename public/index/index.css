@@ -1,0 +1,660 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+/* ZONA HEADER */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(78, 58, 35);
+    font-size: large;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    margin-bottom: 3vh;
+}
+
+#logo {
+    width: 500px;
+    height: 150px;
+    padding-left: 7vw;
+}
+
+.contact {
+    font-size: medium;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+
+header section div:nth-child(1) {
+    margin-bottom: 0;
+    margin-top: 3vh;
+}
+
+header section div:nth-child(3) {
+    margin-bottom: 0;
+    margin-top: 6vh;
+    padding-left: 2vh;
+}
+
+header section div p {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+header section div:nth-child(1) p i {
+    font-size: x-large;
+    padding-right: 2vh;
+    margin-top: 1vh;
+    color: rgb(78, 58, 35);
+}
+
+header section div:nth-child(3) p i {
+    font-size: x-large;
+    padding-left: 2vh;
+    margin-top: 0;
+    color: rgb(78, 58, 35);
+}
+
+header section div p i:hover {
+    color: rgb(219, 128, 54);
+    transition-duration: 0.4s;
+}
+
+input {
+    border: 2px solid rgb(78, 58, 35);
+    border-top: 10%;
+}
+
+input:hover {
+    border: 2px solid rgb(219, 128, 54);
+    transition-duration: 0.4s;
+}
+
+
+
+
+/* ZONA NAV */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 13vw;
+    margin-right: 13vw;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    font-weight: 600;
+    color: rgb(78, 58, 35);
+}
+
+nav ul li {
+    border-bottom: 2px solid rgb(255, 115, 0);
+    padding-bottom: 4px;
+}
+
+.navnav {
+    color: rgb(78, 58, 35);
+}
+
+.navnav1 {
+    color: rgb(78, 58, 35);
+}
+
+.navnav1:visited {
+    color: rgb(78, 58, 35);
+}
+
+.navnav:hover {
+    color: rgb(255, 115, 0);
+    transition-duration: 0.2s;
+}
+
+.navnav1:hover {
+    color: rgb(255, 115, 0);
+    transition-duration: 0.2s;
+}
+
+
+nav ul li:hover {
+    font-size: large;
+    transition-duration: 0.2s;
+}
+
+
+
+
+/* ZONA MAIN */
+
+.portada {
+    display: flex;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url(../../img/index/8.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.textoadopta {
+    margin-right: 1500px;
+}
+
+.titulo {
+    font-size: 4vw;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-left: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 0;
+}
+
+.subtitulo {
+    color: white;
+    font-weight: 400;
+    margin-left: 5.5vw;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+.botonheader {
+    font-size: 1.2vw;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: 8vw;
+    margin-top: 2vh;
+    width: fit-content;
+    background-color: rgb(209, 125, 47);
+    padding: 14px;
+}
+
+.botonheader:hover {
+    background-color: rgb(97, 58, 21);
+    transition-duration: 0.4s;
+}
+
+
+.datos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.datos1 {
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.datos2 {
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.datos3 {
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.titulodatos {
+    font-size: 30px;
+    color: rgb(90, 56, 34);
+    font-weight: 350;
+}
+
+.textodatos {
+    margin-top: 2vh;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+.algunos {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 400;
+    color: rgb(90, 56, 34);
+    border-bottom: 2px solid rgb(255, 115, 0);
+    padding-bottom: 20px;
+}
+
+#mainadopt {
+    border-bottom: 2px solid rgb(255, 115, 0);
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 4vh;
+}
+
+.enadopcion {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 236, 236);
+    border-radius: 4%;
+    box-shadow: 0 2px 4px rgba(46, 8, 8, 0.15);
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.enadopcion:hover {
+    background-color: rgb(218, 212, 206);
+    transition-duration: 0.5s;
+}
+
+.cardsimg {
+    width: 230px;
+    height: 230px;
+    align-self: center;
+    margin-bottom: 1rem;
+    border-radius: 4%;
+}
+
+.cardsname,
+.estado {
+    font-weight: 700;
+    color: #424242;
+}
+
+.cardsname {
+    font-size: 25px;
+    margin-bottom: 10PX;
+}
+
+.cardsdescription,
+.estado {
+    font-size: 16px;
+}
+
+.cardsdescription {
+    margin-bottom: 2vh;
+}
+
+.estado {
+    padding-bottom: 10px;
+    color: rgb(255, 115, 0);
+    text-align: center;
+}
+
+
+.tiendas {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 100px;
+    margin-top: 15vh;
+}
+
+.tiendas1 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(../../img/index/bb.jpg);
+    width: 33.3%;
+    height: 400px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.tiendas2 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(../../img/index/bb1.jpg);
+    width: 33.3%;
+    height: 400px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.tiendas3 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(../../img/index/bb2.jpg);
+    width: 33.3%;
+    height: 400px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.titulotiendas {
+    margin-top: 90px;
+    font-size: 60px;
+    color: white;
+    font-weight: 300;
+}
+
+.textotiendas {
+    margin-top: 12px;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buttontiendas {
+    border: 1px solid rgb(209, 125, 47);
+    background-color: rgb(209, 125, 47);
+    color: white;
+    font-size: larger;
+    font-weight: 300;
+    border-radius: 6px;
+    padding-bottom: 12px;
+    padding-top: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.buttontiendas:hover {
+    background-color: rgb(92, 62, 34);
+    border: 1px solid rgb(92, 62, 34);
+    transition-duration: 0.4s;
+    font-size: 21px;
+}
+
+
+.calendario {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 5vh;
+    margin-top: 16vh;
+    margin-left: 5vw;
+    margin-right: 35vw;
+}
+
+.titulocalendario {
+    font-size: 30px;
+    color: rgb(75, 54, 40);
+    font-weight: 350;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.textocalendario {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.botoncalendario {
+    width: fit-content;
+    color: rgb(94, 70, 43);
+    font-weight: 400;
+    border-bottom: 2px solid rgb(255, 123, 0);
+    transition-duration: 0.4s;
+    font-size: 20px;
+}
+
+.botoncalendario:hover {
+    transition-duration: 0.4s;
+    font-size: 24px;
+}
+
+.imagencalendario {
+    width: 20vw;
+    border-radius: 8px;
+}
+
+
+.clinicas {
+    text-align: center;
+    font-size: 25px;
+    color: #db5800;
+    margin-top: 14vh;
+}
+
+.clinicas div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clinicas div div {
+    margin-left: 4vh;
+    margin-right: 4vh;
+    height: fit-content;
+}
+
+
+
+
+/* MEDIA  */
+
+/* Pantalla de movil */
+@media screen and (max-width: 480px) {
+    .tiendas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tiendas1 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .tiendas2 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .tiendas3 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+}
+
+/* Pantalla de tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .tiendas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tiendas1 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .tiendas2 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .tiendas3 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+/* ZONA FOOTER */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    margin: 0;
+    margin-top: 2vh;
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+.contenido {
+    margin-top: 40px;
+    text-align: left;
+    flex-basis: 15%;
+}
+
+.contenido h4 {
+    border: none;
+    margin-bottom: 4VH;
+}
+
+.contenido p {
+    color: rgb(134, 131, 131);
+    padding-bottom: 10px;
+}
+
+#calle {
+    color: rgb(134, 131, 131);
+    margin-bottom: 20px;
+}
+
+.foot:link {
+    color: rgb(134, 131, 131);
+    padding-bottom: 20px;
+}
+
+.foot:visited {
+    color: rgb(134, 131, 131);
+    padding-bottom: 20px;
+}
+
+.foot:hover {
+    color: rgb(104, 76, 44);
+    font-size: large;
+    transition-duration: 0.5s;
+}
+
+.foot1{
+    color: rgb(134, 131, 131);
+    padding-bottom: 20px;
+}
+
+.foot1:hover{
+    color: rgb(104, 76, 44);
+    font-size: large;
+    transition-duration: 0.5s;
+}
+
+footer section div p i {
+    padding-right: 20px;
+    font-size: 27px;
+    margin-top: 15px;
+    color: rgb(134, 131, 131);
+}
+
+a i:link {
+    color: rgb(134, 131, 131);
+    padding-bottom: 20px;
+}
+
+a i:visited {
+    color: rgb(134, 131, 131);
+    padding-bottom: 20px;
+}
+
+a i:hover {
+    color: rgb(104, 76, 44);
+    transition-duration: 0.3s;
+}
+
+
+
+/* Estilos generales */
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 767px) {
+    /* Encabezado */
+    #header {
+      flex-direction: column;
+    }
+    #header div {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    #logo {
+      margin: 10px 0;
+    }
+    #nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    .navnav {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    /* Sección de datos */
+    #datos div {
+      text-align: center;
+    }
+    /* Tarjetas de adopción */
+    .cards {
+      flex-direction: column;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Encabezado */
+    #header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #header div {
+      margin-bottom: 0;
+      text-align: left;
+    }
+    #logo {
+      margin: 0;
+    }
+    #nav {
+      flex-direction: row;
+      justify-content: center;
+    }
+    .navnav {
+      margin-bottom: 0;
+      margin-right: 20px;
+      text-align: center;
+    }
+    /* Sección de datos */
+    #datos div {
+      text-align: left;
+    }
+    /* Tarjetas de adopción */
+    .cards {
+      flex-direction: row;
+    }
+  }
+  
+  /* Estilos para pantallas grandes */
+  @media only screen and (min-width: 1024px) {
+    /* Encabezado */
+    #header div {
+      margin-bottom: 0;
+      text-align: left;
+    }
+    #logo {
+      margin: 0;
+    }
+    /* Sección de datos */
+    #datos div {
+      text-align: left;
+    }
+  }
+  
